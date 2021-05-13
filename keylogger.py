@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 import pynput.keyboard
 
+log = ""
+
 def process_key_press(key):
     print(key)
 
